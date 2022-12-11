@@ -53,7 +53,7 @@ function deleted(itemIndex) {
 
 }
 function clearStorage() {
-    if (confirm("Do you areally want to clear?")) {
+    if (confirm("Do you really want to clear list ?")) {
         console.log('Clearing the storage')
         localStorage.clear();
         update()
